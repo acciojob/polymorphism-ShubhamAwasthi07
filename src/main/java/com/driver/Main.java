@@ -5,15 +5,9 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Product p = new Product();
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int y = sc.nextInt();
-        int z = sc.nextInt();
-        double a = sc.nextDouble();
-        double b = sc.nextDouble();
-        p.product(x , y);
-        p.product(x , y , x);
-        p.product(a , b);
+        p.product(2 ,3);
+        p.product(1 , 2 , 3);
+        p.product(2.5 , 3.6);
     }
 }
 
